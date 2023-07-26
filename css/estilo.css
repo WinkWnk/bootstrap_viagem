@@ -1,0 +1,13 @@
+.w{
+    color:white;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.shadow:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
