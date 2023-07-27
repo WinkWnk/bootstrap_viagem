@@ -9,36 +9,33 @@
     <title>Viajando pelo Mundo</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm bg-primary sticky-top" data-bs-theme="light">
-            <div class="container">
-            <a class="navbar-brand w" href="#">Viajando pelo Mundo</a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link w" aria-current="page" href="#">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link w" href="#">Sobre</a>
-                <li class="nav-item">
-                    <a class="nav-link w" href="#">Contato</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>    
-    </header>
+    <nav class="navbar navbar-expand-sm bg-primary sticky-top" data-bs-theme="light">
+        <div class="container">
+        <a class="navbar-brand w" href="#">Viajando pelo Mundo</a>
 
-    <main class="container">
-        <section class="d-flex">
-        <div>
-            <h1>Meu Blog de Viagens</h1>
-            <div class="card my-3 shadow" style="width: 40rem;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link w" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link w" href="#">Sobre</a>
+            <li class="nav-item">
+                <a class="nav-link w" href="#">Contato</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>    
+
+    <main class="container my-5 d-flex">
+            <div class="col-lg-7">
+                <h1>Meu Blog de Viagens</h1>
+                <div class="card my-3 fundo" style="width: 45rem;">
                 <img src="assets/imagens/paris.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Viagem a Paris, França</h5>
@@ -47,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="card my-3 shadow" style="width: 40rem;">
+            <div class="card my-3 fundo" style="width: 45rem;">
                 <img src="assets/imagens/tokyo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Viagem a Tóquio, Japão</h5>
@@ -56,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="card my-3 shadow" style="width: 40rem;">
+            <div class="card my-3 fundo" style="width: 45rem;">
                 <img src="assets/imagens/nova_york.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Viagem a Nova York, Estados Unidos</h5>
@@ -66,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="card my-3 shadow" style="width: 40rem;">
+            <div class="card my-3 fundo" style="width: 45rem;">
                 <img src="assets/imagens/rio-de-janeiro.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Viagem ao Rio de Janeiro, Brasil</h5>
@@ -75,34 +72,65 @@
                 </div>
             </div>
         </div>
-        <div>
+
+        <div class="col-lg-5 order-2">
             <h2 class="m-2">Categorias</h2>
-            <ol class="list-group list-group-numbered">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
+            <ol class="list-group bg-primary-subtle border border-primary-subtle rounded-3">
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
                 <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
-                    Content for list item
+                    <div class="fw-bold">Gastronomia</div>
                 </div>
-                <span class="badge bg-primary rounded-pill">14</span>
+                <span class="badge bg-primary rounded-pill">3</span>
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
+
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
                 <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
-                    Content for list item
+                    <div class="fw-bold">Pontos Turísticos</div>
                 </div>
-                <span class="badge bg-primary rounded-pill">14</span>
+                <span class="badge bg-primary rounded-pill">5</span>
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
+
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
                 <div class="ms-2 me-auto">
-                    <div class="fw-bold">Subheading</div>
-                    Content for list item
+                    <div class="fw-bold">Cultura e História</div>
                 </div>
-                <span class="badge bg-primary rounded-pill">14</span>
+                    <span class="badge bg-primary rounded-pill">2</span>
                 </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Vida Noturna</div>
+                </div>
+                    <span class="badge bg-primary rounded-pill">3</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Compras</div>
+                </div>
+                    <span class="badge bg-primary rounded-pill">5</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-start lista">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Dicas de Viagem</div>
+                </div>
+                    <span class="badge bg-primary rounded-pill">6</span>
+                </li>
+
             </ol>
         </div>
-        </section>
     </main>
+
+    <footer>
+        <nav class="navbar bg-primary">
+            <div class="container justify-content-center py-3 text-light">
+                <p>Todos os direitos reservados &copy; 2023</p>
+            </div>
+        </nav>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

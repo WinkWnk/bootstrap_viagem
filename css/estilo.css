@@ -6,8 +6,14 @@
     width: 100%;
 }
 
-.shadow:hover{
+.fundo:hover{
+    box-shadow: 0px 0px 20px rgb(71, 71, 71);
     cursor: pointer;
-    transform: scale(1.1);
 }
 
+.lista:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(93, 61, 209);
+    border:1px solid rgb(187, 183, 183);
+}
